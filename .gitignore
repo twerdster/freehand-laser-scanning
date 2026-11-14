@@ -1,0 +1,21 @@
+# Local tooling, outputs, and user IDE state
+.DS_Store
+__pycache__/
+.venv/
+DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.mobileprovision
+*.p12
+*.p8
+*.pem
+*.a
+*.dylib
+*.framework/
+*.mex*
+# Dependencies and recordings stay local
+Dependencies/
+*.mov
+*.MOV
+*.mp4
+*.avi

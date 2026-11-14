@@ -1,0 +1,1719 @@
+{
+  "schema_version": 1,
+  "recovery_date": "2026-11-14",
+  "description": "Reviewed publication copies of historical Freehand Laser source. Sources are logical original paths, never private storage paths.",
+  "files": [
+    {
+      "path": "matlab/experiments/DecisionTreeMain.m",
+      "source": "laser_proj_matlab/DecisionTreeMain.m",
+      "source_commit": null,
+      "original_sha256": "a9c0def9203c54a6243f31e43e0d4f87db6c38363d9e22dbdc9757a713ad257a",
+      "published_sha256": "a9c0def9203c54a6243f31e43e0d4f87db6c38363d9e22dbdc9757a713ad257a",
+      "bytes": 4213,
+      "transformations": []
+    },
+    {
+      "path": "matlab/third_party/kroon/ICP_finite.m",
+      "source": "laser_proj_matlab/ICP_finite.m",
+      "source_commit": null,
+      "original_sha256": "0e29945429c4a03459258f104b648e22d34a567e221122994c35ba0b3352a8a7",
+      "published_sha256": "0e29945429c4a03459258f104b648e22d34a567e221122994c35ba0b3352a8a7",
+      "bytes": 13545,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/classify.c",
+      "source": "laser_proj_matlab/classify.c",
+      "source_commit": null,
+      "original_sha256": "ebbd4158c4f0bf00a0425814dda7afb008477d529b397e439c67e891dc1ef213",
+      "published_sha256": "ebbd4158c4f0bf00a0425814dda7afb008477d529b397e439c67e891dc1ef213",
+      "bytes": 39237,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/findPixelFromWorldPoint.m",
+      "source": "laser_proj_matlab/findPixelFromWorldPoint.m",
+      "source_commit": null,
+      "original_sha256": "a15db8e650547d7ec77ef0c69e85d37608805d924b22e77db4dc2c04101af5d0",
+      "published_sha256": "a15db8e650547d7ec77ef0c69e85d37608805d924b22e77db4dc2c04101af5d0",
+      "bytes": 368,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/findRealWorldPointLaser.m",
+      "source": "laser_proj_matlab/findRealWorldPointLaser.m",
+      "source_commit": null,
+      "original_sha256": "f7aab135d08d2e33174d194666c97f4fe3e9e0b6ec51c0f1afe9fd91c9fd7176",
+      "published_sha256": "f7aab135d08d2e33174d194666c97f4fe3e9e0b6ec51c0f1afe9fd91c9fd7176",
+      "bytes": 385,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/fitScans.m",
+      "source": "laser_proj_matlab/fitScans.m",
+      "source_commit": null,
+      "original_sha256": "2d38a899a4fa7fa89a5e38f3b62d94b23d120c67540a04b6b9fadb38f01ef784",
+      "published_sha256": "2d38a899a4fa7fa89a5e38f3b62d94b23d120c67540a04b6b9fadb38f01ef784",
+      "bytes": 401,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/gui.m",
+      "source": "laser_proj_matlab/gui.m",
+      "source_commit": null,
+      "original_sha256": "e90df6ed5b73d6ad47d2562cdad4d53b15d91e5ba09c23bf60792a58e50e8a7a",
+      "published_sha256": "e90df6ed5b73d6ad47d2562cdad4d53b15d91e5ba09c23bf60792a58e50e8a7a",
+      "bytes": 7846,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/lineExtract.m",
+      "source": "laser_proj_matlab/lineExtract.m",
+      "source_commit": null,
+      "original_sha256": "999c1614eaec01bc4af0dda9bf1dd3284b74f8ec8cf81efac31b507b4ab74830",
+      "published_sha256": "999c1614eaec01bc4af0dda9bf1dd3284b74f8ec8cf81efac31b507b4ab74830",
+      "bytes": 9937,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/lineExtractNew.m",
+      "source": "laser_proj_matlab/lineExtractNew.m",
+      "source_commit": null,
+      "original_sha256": "193ca9de9ffd4d38275cfdb37d1bf5d4fef51525bf7bd3e17b931a591cad2d49",
+      "published_sha256": "193ca9de9ffd4d38275cfdb37d1bf5d4fef51525bf7bd3e17b931a591cad2d49",
+      "bytes": 4463,
+      "transformations": []
+    },
+    {
+      "path": "matlab/third_party/kroon/movepoints.m",
+      "source": "laser_proj_matlab/movepoints.m",
+      "source_commit": null,
+      "original_sha256": "e2f26177fbc31ce8f4f75386874459920a3e59a002b55360d239be46822f4df4",
+      "published_sha256": "e2f26177fbc31ce8f4f75386874459920a3e59a002b55360d239be46822f4df4",
+      "bytes": 775,
+      "transformations": []
+    },
+    {
+      "path": "matlab/third_party/mian/pointCloud2mesh.m",
+      "source": "laser_proj_matlab/pointCloud2mesh.m",
+      "source_commit": null,
+      "original_sha256": "b94e04974bd046b3a3aa4964c36d0c86560486b5ffa5fb8d5b56ab3f0001cfbc",
+      "published_sha256": "b94e04974bd046b3a3aa4964c36d0c86560486b5ffa5fb8d5b56ab3f0001cfbc",
+      "bytes": 5654,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/processImage.m",
+      "source": "laser_proj_matlab/processImage.m",
+      "source_commit": null,
+      "original_sha256": "b7a0b791c897720ad28c488be33fb9fa7e6aa94544fedf2cf991a2c1f052b9ab",
+      "published_sha256": "b7a0b791c897720ad28c488be33fb9fa7e6aa94544fedf2cf991a2c1f052b9ab",
+      "bytes": 828,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/process_mesh.m",
+      "source": "laser_proj_matlab/process_mesh.m",
+      "source_commit": null,
+      "original_sha256": "39d5ed8c0e4685a418d5bf26689b5650831336b15b8f4017d5dee0cbe8ef90d0",
+      "published_sha256": "39d5ed8c0e4685a418d5bf26689b5650831336b15b8f4017d5dee0cbe8ef90d0",
+      "bytes": 4321,
+      "transformations": []
+    },
+    {
+      "path": "matlab/third_party/kovesi/ransacfitplane.m",
+      "source": "laser_proj_matlab/ransacfitplane.m",
+      "source_commit": null,
+      "original_sha256": "4ae47417eef5aafb83b81562839efe51b06c01e9267cf653b11cf029681d3072",
+      "published_sha256": "4ae47417eef5aafb83b81562839efe51b06c01e9267cf653b11cf029681d3072",
+      "bytes": 18449,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/render.m",
+      "source": "laser_proj_matlab/render.m",
+      "source_commit": null,
+      "original_sha256": "fe6270be6dc200a798e6c229e53e0454e6ea0aeaa7a6562a1b45695989709cf7",
+      "published_sha256": "fe6270be6dc200a798e6c229e53e0454e6ea0aeaa7a6562a1b45695989709cf7",
+      "bytes": 245,
+      "transformations": []
+    },
+    {
+      "path": "matlab/experiments/treeClassify.c",
+      "source": "laser_proj_matlab/treeClassify.c",
+      "source_commit": null,
+      "original_sha256": "fdf1e92c0ffa1b375f80e19cf0168bf8b58e4a96a6a54bb7a72013ac6d45a072",
+      "published_sha256": "fdf1e92c0ffa1b375f80e19cf0168bf8b58e4a96a6a54bb7a72013ac6d45a072",
+      "bytes": 4918,
+      "transformations": []
+    },
+    {
+      "path": "matlab/third_party/kroon/fminlbfgs.m",
+      "source": "laser_proj_matlab/icp_finite.zip!fminlbfgs.m",
+      "source_commit": null,
+      "original_sha256": "dd4f8dd34b163e5c8a3ae105e07f7d1d4b86a3f2ec3bd55a182e19735573ac34",
+      "published_sha256": "dd4f8dd34b163e5c8a3ae105e07f7d1d4b86a3f2ec3bd55a182e19735573ac34",
+      "bytes": 31779,
+      "transformations": []
+    },
+    {
+      "path": "matlab/third_party/kroon/LICENSE.txt",
+      "source": "laser_proj_matlab/icp_finite.zip!license.txt",
+      "source_commit": null,
+      "original_sha256": "9445018bb2b85143595e8a7898c80f3e49441424f80e519d73e6cf4785c0259e",
+      "published_sha256": "9445018bb2b85143595e8a7898c80f3e49441424f80e519d73e6cf4785c0259e",
+      "bytes": 1314,
+      "transformations": []
+    },
+    {
+      "path": "matlab/classifier/crossValidate.m",
+      "source": "SampleLaserPics/Cross Validate/crossValidate.m",
+      "source_commit": null,
+      "original_sha256": "2d251a18709606a238798bc6bb1b34cf9c9f5a0a5ef373b3d034bdd260eec8f7",
+      "published_sha256": "2d251a18709606a238798bc6bb1b34cf9c9f5a0a5ef373b3d034bdd260eec8f7",
+      "bytes": 876,
+      "transformations": []
+    },
+    {
+      "path": "matlab/classifier/crossValidateSingle.m",
+      "source": "SampleLaserPics/Cross Validate/crossValidateSingle.m",
+      "source_commit": null,
+      "original_sha256": "fc3316684d63afa5eea8b37e60cf32941827e01efddb059b3b6f59367db10e4d",
+      "published_sha256": "fc3316684d63afa5eea8b37e60cf32941827e01efddb059b3b6f59367db10e4d",
+      "bytes": 1140,
+      "transformations": []
+    },
+    {
+      "path": "matlab/classifier/trainSystem.m",
+      "source": "SampleLaserPics/Cross Validate/trainSystem.m",
+      "source_commit": null,
+      "original_sha256": "18404ae707a3e81d93501cb4f722cefe9bd44c95db1010212ad1377d7520ab3b",
+      "published_sha256": "18404ae707a3e81d93501cb4f722cefe9bd44c95db1010212ad1377d7520ab3b",
+      "bytes": 687,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "published_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "bytes": 602,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "published_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "bytes": 602,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "published_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "bytes": 2342,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "published_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "bytes": 2342,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/GLView.h",
+      "source": "Scanner/PointCloudSample/GLView.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "published_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "bytes": 915,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/GLView.h",
+      "source": "Scanner/PointCloudSample/GLView.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "published_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "bytes": 915,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/GLView.m",
+      "source": "Scanner/PointCloudSample/GLView.m",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "published_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "bytes": 3575,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/GLView.m",
+      "source": "Scanner/PointCloudSample/GLView.m",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "published_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "bytes": 3575,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/HardwareController.h",
+      "source": "Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "cebba14bf2f3777bd6d46ccdc9a44047709f49f74f776b4e143ace665bf5445d",
+      "published_sha256": "cebba14bf2f3777bd6d46ccdc9a44047709f49f74f776b4e143ace665bf5445d",
+      "bytes": 2238,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/HardwareController.h",
+      "source": "Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "cebba14bf2f3777bd6d46ccdc9a44047709f49f74f776b4e143ace665bf5445d",
+      "published_sha256": "cebba14bf2f3777bd6d46ccdc9a44047709f49f74f776b4e143ace665bf5445d",
+      "bytes": 2238,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "a338dc17aa2ba1c5468d8d148667f546bb509145eadffa014589508865a660ba",
+      "published_sha256": "a338dc17aa2ba1c5468d8d148667f546bb509145eadffa014589508865a660ba",
+      "bytes": 27014,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "a338dc17aa2ba1c5468d8d148667f546bb509145eadffa014589508865a660ba",
+      "published_sha256": "a338dc17aa2ba1c5468d8d148667f546bb509145eadffa014589508865a660ba",
+      "bytes": 27014,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/MyGLKViewController.h",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "published_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "bytes": 909,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/MyGLKViewController.h",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "published_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "bytes": 909,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "published_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "bytes": 3919,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "published_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "bytes": 3919,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/MyGestureHandler.h",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "published_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "bytes": 1017,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/MyGestureHandler.h",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "published_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "bytes": 1017,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "published_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "bytes": 8205,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "published_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "bytes": 8205,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "published_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "bytes": 3342,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "published_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "bytes": 3342,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "7c0f7c976d49696292d09b3b140a5cac9a8a4c475196b3393ff076b7bd9dffac",
+      "published_sha256": "2afa277aecc9765dda033ab613471575a942b822b1a495a7270f1c21dd0b0910",
+      "bytes": 34754,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "7c0f7c976d49696292d09b3b140a5cac9a8a4c475196b3393ff076b7bd9dffac",
+      "published_sha256": "2afa277aecc9765dda033ab613471575a942b822b1a495a7270f1c21dd0b0910",
+      "bytes": 34754,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source": "Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "published_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "bytes": 1954,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source": "Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "published_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "bytes": 1954,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/TestApp.h",
+      "source": "Scanner/PointCloudSample/TestApp.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/TestApp.h",
+      "source": "Scanner/PointCloudSample/TestApp.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/TestApp.mm",
+      "source": "Scanner/PointCloudSample/TestApp.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "published_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "bytes": 9277,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/TestApp.mm",
+      "source": "Scanner/PointCloudSample/TestApp.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "published_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "bytes": 9277,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/TextureUtilities.mm",
+      "source": "Scanner/PointCloudSample/TextureUtilities.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/TextureUtilities.mm",
+      "source": "Scanner/PointCloudSample/TextureUtilities.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/kernels.h",
+      "source": "Scanner/PointCloudSample/kernels.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "published_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "bytes": 45040,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/kernels.h",
+      "source": "Scanner/PointCloudSample/kernels.h",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "published_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "bytes": 45040,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/main.mm",
+      "source": "Scanner/PointCloudSample/main.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "published_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "bytes": 311,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample/main.mm",
+      "source": "Scanner/PointCloudSample/main.mm",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "published_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "bytes": 311,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source": "Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "a57f33e39d799c25245fa2a1aaf056d1de0c85a35041341f613aa516ac9b5898",
+      "published_sha256": "969c4048e5ec604c3379422d939e7be9af9aeb99e4264a033b89b2a4bd2012c7",
+      "bytes": 38319,
+      "transformations": [
+        "cleared-signing-identity-team-and-profile-settings",
+        "replaced-user-specific-build-paths"
+      ]
+    },
+    {
+      "path": "ios/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source": "Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "a57f33e39d799c25245fa2a1aaf056d1de0c85a35041341f613aa516ac9b5898",
+      "published_sha256": "969c4048e5ec604c3379422d939e7be9af9aeb99e4264a033b89b2a4bd2012c7",
+      "bytes": 38319,
+      "transformations": [
+        "cleared-signing-identity-team-and-profile-settings",
+        "replaced-user-specific-build-paths"
+      ]
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/LICENSE",
+      "source": "Scanner/LICENSE",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/LICENSE",
+      "source": "Scanner/LICENSE",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-0f12c88/Scanner/README",
+      "source": "Scanner/README",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "ios/Scanner/README",
+      "source": "Scanner/README",
+      "source_commit": "0f12c88062bdd1e1b75223a1dd79a0c7de0c554f",
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "published_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "bytes": 602,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "published_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "bytes": 2342,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/GLView.h",
+      "source": "Scanner/PointCloudSample/GLView.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "published_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "bytes": 915,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/GLView.m",
+      "source": "Scanner/PointCloudSample/GLView.m",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "published_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "bytes": 3575,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/HardwareController.h",
+      "source": "Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "bcdace7a23a0f83b568f0eb12b03cd5ce69be8766e244afc03a27d13e23ddfdf",
+      "published_sha256": "bcdace7a23a0f83b568f0eb12b03cd5ce69be8766e244afc03a27d13e23ddfdf",
+      "bytes": 2240,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "5a46a408d7fa71bdb17de4fdc68aedc23811d2c1e384d8b67f27417378ea92f6",
+      "published_sha256": "5a46a408d7fa71bdb17de4fdc68aedc23811d2c1e384d8b67f27417378ea92f6",
+      "bytes": 27182,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/MyGLKViewController.h",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "published_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "bytes": 909,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "published_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "bytes": 3919,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/MyGestureHandler.h",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "published_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "bytes": 1017,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "published_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "bytes": 8205,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "published_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "bytes": 3342,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "7c0f7c976d49696292d09b3b140a5cac9a8a4c475196b3393ff076b7bd9dffac",
+      "published_sha256": "2afa277aecc9765dda033ab613471575a942b822b1a495a7270f1c21dd0b0910",
+      "bytes": 34754,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source": "Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "published_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "bytes": 1954,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/TestApp.h",
+      "source": "Scanner/PointCloudSample/TestApp.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/TestApp.mm",
+      "source": "Scanner/PointCloudSample/TestApp.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "published_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "bytes": 9277,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/TextureUtilities.mm",
+      "source": "Scanner/PointCloudSample/TextureUtilities.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/kernels.h",
+      "source": "Scanner/PointCloudSample/kernels.h",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "published_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "bytes": 45040,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/main.mm",
+      "source": "Scanner/PointCloudSample/main.mm",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "published_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "bytes": 311,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source": "Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "a57f33e39d799c25245fa2a1aaf056d1de0c85a35041341f613aa516ac9b5898",
+      "published_sha256": "969c4048e5ec604c3379422d939e7be9af9aeb99e4264a033b89b2a4bd2012c7",
+      "bytes": 38319,
+      "transformations": [
+        "cleared-signing-identity-team-and-profile-settings",
+        "replaced-user-specific-build-paths"
+      ]
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/LICENSE",
+      "source": "Scanner/LICENSE",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-9f75f0f/Scanner/README",
+      "source": "Scanner/README",
+      "source_commit": "9f75f0fb0b86db42ecb59e20ed918d32b0b246cf",
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "published_sha256": "d262ca398234cc8f0f475739145f83e11fc1bed26304a7d5b9802a6cacde3947",
+      "bytes": 602,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "published_sha256": "1e44c2c148823b05caffd3abf2f82c3355a03198ee2e91f5da8d9471d9a39c8e",
+      "bytes": 2342,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/GLView.h",
+      "source": "Scanner/PointCloudSample/GLView.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "published_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "bytes": 915,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/GLView.m",
+      "source": "Scanner/PointCloudSample/GLView.m",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "published_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "bytes": 3575,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/HardwareController.h",
+      "source": "Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "bcdace7a23a0f83b568f0eb12b03cd5ce69be8766e244afc03a27d13e23ddfdf",
+      "published_sha256": "bcdace7a23a0f83b568f0eb12b03cd5ce69be8766e244afc03a27d13e23ddfdf",
+      "bytes": 2240,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "79707613272c54efd1d48986f4f02b22c62bae344d7f9d59f9e8bfa7078dc83d",
+      "published_sha256": "79707613272c54efd1d48986f4f02b22c62bae344d7f9d59f9e8bfa7078dc83d",
+      "bytes": 27156,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/MyGLKViewController.h",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "published_sha256": "2e44bda13394967ffa4c6183d7994f4ae8e881659660f373faed8e19a605b7c1",
+      "bytes": 909,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source": "Scanner/PointCloudSample/MyGLKViewController.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "published_sha256": "d1e62cfaeef7dfefb4210d5dfbefc94a68c0f9160564f83a12af408305323687",
+      "bytes": 3919,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/MyGestureHandler.h",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "published_sha256": "cedb0a303fddaa44382f2b73a8098da2b4318a214d8f503d489d6b2758928d2c",
+      "bytes": 1017,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source": "Scanner/PointCloudSample/MyGestureHandler.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "published_sha256": "6c681ea37fee6e3fbace6709fe70758b0b0977de8733079c08bea4a802010efd",
+      "bytes": 8205,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "published_sha256": "d06d8d945e12d59f7ea8b5099bf5f9aff0c769c503ad0fe7dc98782e0d0e2141",
+      "bytes": 3342,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "7c0f7c976d49696292d09b3b140a5cac9a8a4c475196b3393ff076b7bd9dffac",
+      "published_sha256": "2afa277aecc9765dda033ab613471575a942b822b1a495a7270f1c21dd0b0910",
+      "bytes": 34754,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source": "Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "published_sha256": "050a06c2c39ec0fb75184f19b292c826b58eeab2e9625749277f4137f96bfe71",
+      "bytes": 1954,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/TestApp.h",
+      "source": "Scanner/PointCloudSample/TestApp.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/TestApp.mm",
+      "source": "Scanner/PointCloudSample/TestApp.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "published_sha256": "ddb4d7346a6aa3a0ac5e86bb469db39b8bfb0c3ebc2e58e11f7e7d9bbe1a3bc4",
+      "bytes": 9277,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/TextureUtilities.mm",
+      "source": "Scanner/PointCloudSample/TextureUtilities.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/kernels.h",
+      "source": "Scanner/PointCloudSample/kernels.h",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "published_sha256": "8b5875dc01b7db9577de749506e9a25c533428ffdee728eb00cc65a7a5fef200",
+      "bytes": 45040,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/main.mm",
+      "source": "Scanner/PointCloudSample/main.mm",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "published_sha256": "5c6f77b678cbdbea277f92810456afe4e83d885e5309493ff1570bdf46720032",
+      "bytes": 311,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source": "Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "a57f33e39d799c25245fa2a1aaf056d1de0c85a35041341f613aa516ac9b5898",
+      "published_sha256": "969c4048e5ec604c3379422d939e7be9af9aeb99e4264a033b89b2a4bd2012c7",
+      "bytes": 38319,
+      "transformations": [
+        "cleared-signing-identity-team-and-profile-settings",
+        "replaced-user-specific-build-paths"
+      ]
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/LICENSE",
+      "source": "Scanner/LICENSE",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-11-02-745a1c7/Scanner/README",
+      "source": "Scanner/README",
+      "source_commit": "745a1c728b1e67d342a7a77d2463d5ee3258c73a",
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "published_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "bytes": 453,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "published_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "bytes": 1079,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/GLView.h",
+      "source": "Scanner/PointCloudSample/GLView.h",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "published_sha256": "8ae6ee35b0894b3111c5a18c8c21b12b6cd124bd99cfc11dbf6a46fd9ed767ef",
+      "bytes": 915,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/GLView.m",
+      "source": "Scanner/PointCloudSample/GLView.m",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "published_sha256": "52602f32295d2a3cdb52a60ecca462fa706b02fffcc788707db4620ac984c72e",
+      "bytes": 3575,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/HardwareController.h",
+      "source": "Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "387e057c7dcb417f684b975994de6a2b83d40b814ad2b0add2617f455921b0a4",
+      "published_sha256": "387e057c7dcb417f684b975994de6a2b83d40b814ad2b0add2617f455921b0a4",
+      "bytes": 1999,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "7714c27f3b4807e75a2d0b1a2c18e19ce37e96dc565a82fcd7b523185ac4a34b",
+      "published_sha256": "7714c27f3b4807e75a2d0b1a2c18e19ce37e96dc565a82fcd7b523185ac4a34b",
+      "bytes": 22022,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "68434a6194c07f8d180d0fc75680422eda4769dff6799e193f157248cbfb4296",
+      "published_sha256": "68434a6194c07f8d180d0fc75680422eda4769dff6799e193f157248cbfb4296",
+      "bytes": 2884,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.mm",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "e08573b3a51cff8267a83f6d098c1263b7bc1fd4ae4fa68f8bae8f201d2f403d",
+      "published_sha256": "ca57d84dc9f43e8c6f320ddb7dfeee7138dfb384ea45efcfd3032dd19b7eecab",
+      "bytes": 20488,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source": "Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "4be6ab488fe6b0782058f670904b096867e37e93dcbe6e8f204ea8dfa185d2b9",
+      "published_sha256": "4be6ab488fe6b0782058f670904b096867e37e93dcbe6e8f204ea8dfa185d2b9",
+      "bytes": 1933,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/TestApp.h",
+      "source": "Scanner/PointCloudSample/TestApp.h",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/TestApp.mm",
+      "source": "Scanner/PointCloudSample/TestApp.mm",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "4712ab89a5adc13b724317a855a2026981df0cd9f11680ba41d01171165e22a7",
+      "published_sha256": "4712ab89a5adc13b724317a855a2026981df0cd9f11680ba41d01171165e22a7",
+      "bytes": 8938,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/TextureUtilities.mm",
+      "source": "Scanner/PointCloudSample/TextureUtilities.mm",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/kernels.h",
+      "source": "Scanner/PointCloudSample/kernels.h",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "3d4b971bbd2c118374466bf919be27c93cf2851dbaf34e3eda81a9999670e657",
+      "published_sha256": "3d4b971bbd2c118374466bf919be27c93cf2851dbaf34e3eda81a9999670e657",
+      "bytes": 26827,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/main.mm",
+      "source": "Scanner/PointCloudSample/main.mm",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "published_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "bytes": 306,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source": "Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "87a84ba9ea79ce047c1ce3f4200101512cbaa922d14182e2d0664e76b38a6850",
+      "published_sha256": "84285455bfc5340e338c1dc27c97f0bed4cbda84477828de524c9aaf92442f71",
+      "bytes": 31209,
+      "transformations": [
+        "cleared-signing-identity-team-and-profile-settings",
+        "replaced-user-specific-build-paths"
+      ]
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/LICENSE",
+      "source": "Scanner/LICENSE",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2014-04-09-d381c87/Scanner/README",
+      "source": "Scanner/README",
+      "source_commit": "d381c87fa640b683000d5c9a3a6b9131041d5b5f",
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "published_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "bytes": 453,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "published_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "bytes": 1079,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/GLView.h",
+      "source": "Scanner/PointCloudSample/GLView.h",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "6db22a2a2b62f8cfaa77566dd57355a4a082837e8d8e675340a210169783f548",
+      "published_sha256": "6db22a2a2b62f8cfaa77566dd57355a4a082837e8d8e675340a210169783f548",
+      "bytes": 874,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/GLView.m",
+      "source": "Scanner/PointCloudSample/GLView.m",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "489a5911ad7fcc2a9b0e633f8537ff6443e6b6e83cc948d692358cae7662e470",
+      "published_sha256": "489a5911ad7fcc2a9b0e633f8537ff6443e6b6e83cc948d692358cae7662e470",
+      "bytes": 3577,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/HardwareController.h",
+      "source": "Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "ad86cc5d545e856a5cf1ffec5b4e1a6577132d2f691dbb6dbb443a4a13a54222",
+      "published_sha256": "ad86cc5d545e856a5cf1ffec5b4e1a6577132d2f691dbb6dbb443a4a13a54222",
+      "bytes": 1964,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "71445b4eb4d376121b4738f37e768801067a366f6d64f9d6b9224d2afdb13784",
+      "published_sha256": "71445b4eb4d376121b4738f37e768801067a366f6d64f9d6b9224d2afdb13784",
+      "bytes": 13986,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/PointCloudApplication.cpp",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.cpp",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "8aef0e0efecb93604db48fb6076fea816d9550217e306733cc5a42a8290075d6",
+      "published_sha256": "1386b2be0e99915ca73c8e16386f0a3665ac0bb7ef3edf82f58d9e6535721dcf",
+      "bytes": 17521,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "981ef78e052034dab6f2609078a1d94ddd5994d8098572b0b3e394ee006cfefc",
+      "published_sha256": "981ef78e052034dab6f2609078a1d94ddd5994d8098572b0b3e394ee006cfefc",
+      "bytes": 2611,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source": "Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "4be6ab488fe6b0782058f670904b096867e37e93dcbe6e8f204ea8dfa185d2b9",
+      "published_sha256": "4be6ab488fe6b0782058f670904b096867e37e93dcbe6e8f204ea8dfa185d2b9",
+      "bytes": 1933,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/TestApp.cpp",
+      "source": "Scanner/PointCloudSample/TestApp.cpp",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "a9c592692c18fbc573b955fab4cef35894d97ca8d6199262e70ba9d47f6a831c",
+      "published_sha256": "a9c592692c18fbc573b955fab4cef35894d97ca8d6199262e70ba9d47f6a831c",
+      "bytes": 8939,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/TestApp.h",
+      "source": "Scanner/PointCloudSample/TestApp.h",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/TextureUtilities.cpp",
+      "source": "Scanner/PointCloudSample/TextureUtilities.cpp",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/kernels.h",
+      "source": "Scanner/PointCloudSample/kernels.h",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "3d4b971bbd2c118374466bf919be27c93cf2851dbaf34e3eda81a9999670e657",
+      "published_sha256": "3d4b971bbd2c118374466bf919be27c93cf2851dbaf34e3eda81a9999670e657",
+      "bytes": 26827,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/main.mm",
+      "source": "Scanner/PointCloudSample/main.mm",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "published_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "bytes": 306,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source": "Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "77f464b49b6a868d541f1ab618de9cf846667e29247a7338585c3600b0a813a8",
+      "published_sha256": "b13a21fcab3bd9264c2fb1c679cb1925d109a74b21e6d211f7e086a7802b523b",
+      "bytes": 29836,
+      "transformations": [
+        "cleared-signing-identity-team-and-profile-settings"
+      ]
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/LICENSE",
+      "source": "Scanner/LICENSE",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-15-3643bbb/Scanner/README",
+      "source": "Scanner/README",
+      "source_commit": "3643bbbebe2828dbe9e665be3c5c5b5e4c95b2d0",
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "published_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "bytes": 453,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "published_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "bytes": 1079,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/GLView.h",
+      "source": "Scanner/PointCloudSample/GLView.h",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "6db22a2a2b62f8cfaa77566dd57355a4a082837e8d8e675340a210169783f548",
+      "published_sha256": "6db22a2a2b62f8cfaa77566dd57355a4a082837e8d8e675340a210169783f548",
+      "bytes": 874,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/GLView.m",
+      "source": "Scanner/PointCloudSample/GLView.m",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "489a5911ad7fcc2a9b0e633f8537ff6443e6b6e83cc948d692358cae7662e470",
+      "published_sha256": "489a5911ad7fcc2a9b0e633f8537ff6443e6b6e83cc948d692358cae7662e470",
+      "bytes": 3577,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/HardwareController.h",
+      "source": "Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "ad86cc5d545e856a5cf1ffec5b4e1a6577132d2f691dbb6dbb443a4a13a54222",
+      "published_sha256": "ad86cc5d545e856a5cf1ffec5b4e1a6577132d2f691dbb6dbb443a4a13a54222",
+      "bytes": 1964,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "71445b4eb4d376121b4738f37e768801067a366f6d64f9d6b9224d2afdb13784",
+      "published_sha256": "71445b4eb4d376121b4738f37e768801067a366f6d64f9d6b9224d2afdb13784",
+      "bytes": 13986,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/PointCloudApplication.cpp",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.cpp",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "73bb6d8ce397b34d126c68aa006f11ac435d28407e9f926320a3ddf67160018b",
+      "published_sha256": "dd65ed6139ee5cad80e51f0c029504ed85d632b214c648eea5d7722da0f32a70",
+      "bytes": 16081,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "981ef78e052034dab6f2609078a1d94ddd5994d8098572b0b3e394ee006cfefc",
+      "published_sha256": "981ef78e052034dab6f2609078a1d94ddd5994d8098572b0b3e394ee006cfefc",
+      "bytes": 2611,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source": "Scanner/PointCloudSample/PointCloudSample-Info.plist",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "4be6ab488fe6b0782058f670904b096867e37e93dcbe6e8f204ea8dfa185d2b9",
+      "published_sha256": "4be6ab488fe6b0782058f670904b096867e37e93dcbe6e8f204ea8dfa185d2b9",
+      "bytes": 1933,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/TestApp.cpp",
+      "source": "Scanner/PointCloudSample/TestApp.cpp",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "a9c592692c18fbc573b955fab4cef35894d97ca8d6199262e70ba9d47f6a831c",
+      "published_sha256": "a9c592692c18fbc573b955fab4cef35894d97ca8d6199262e70ba9d47f6a831c",
+      "bytes": 8939,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/TestApp.h",
+      "source": "Scanner/PointCloudSample/TestApp.h",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/TextureUtilities.cpp",
+      "source": "Scanner/PointCloudSample/TextureUtilities.cpp",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/kernels.h",
+      "source": "Scanner/PointCloudSample/kernels.h",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "52b37dce3f2fc77792687ad1009905b6666e6deecc2be433015b27920b1e2dac",
+      "published_sha256": "52b37dce3f2fc77792687ad1009905b6666e6deecc2be433015b27920b1e2dac",
+      "bytes": 24721,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/main.mm",
+      "source": "Scanner/PointCloudSample/main.mm",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "published_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "bytes": 306,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source": "Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "745fbe576c526fc1700051db1cc0f444ab2c2ff399e4a62db832d5cb39759d05",
+      "published_sha256": "a019fa329c6eb5267312c391b8dcc8e68afa3e0ba92bf3d53adb28465faf4095",
+      "bytes": 29706,
+      "transformations": [
+        "cleared-signing-identity-team-and-profile-settings"
+      ]
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/LICENSE",
+      "source": "Scanner/LICENSE",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "history/ios/2013-04-12-917a87e/Scanner/README",
+      "source": "Scanner/README",
+      "source_commit": "917a87e047d5e97d7caff47a3444db222988fd18",
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/AppDelegate.h",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/AppDelegate.h",
+      "source_commit": null,
+      "original_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "published_sha256": "559f1743d5375546511c9aae8ae5be97f3dd29c209b77e4f03ab60b0a998f7cb",
+      "bytes": 453,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/AppDelegate.mm",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/AppDelegate.mm",
+      "source_commit": null,
+      "original_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "published_sha256": "2c5fee2733c61d86cbe194c9a80f560d534cca22c93d7fe5c539b51d0ae73970",
+      "bytes": 1079,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/GLView.h",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/GLView.h",
+      "source_commit": null,
+      "original_sha256": "6db22a2a2b62f8cfaa77566dd57355a4a082837e8d8e675340a210169783f548",
+      "published_sha256": "6db22a2a2b62f8cfaa77566dd57355a4a082837e8d8e675340a210169783f548",
+      "bytes": 874,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/GLView.m",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/GLView.m",
+      "source_commit": null,
+      "original_sha256": "489a5911ad7fcc2a9b0e633f8537ff6443e6b6e83cc948d692358cae7662e470",
+      "published_sha256": "489a5911ad7fcc2a9b0e633f8537ff6443e6b6e83cc948d692358cae7662e470",
+      "bytes": 3577,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/HardwareController.h",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/HardwareController.h",
+      "source_commit": null,
+      "original_sha256": "9452639dd3bfb9bf293b6e3201d3eef396e6b43eb85d0f378f282bfc13957b99",
+      "published_sha256": "9452639dd3bfb9bf293b6e3201d3eef396e6b43eb85d0f378f282bfc13957b99",
+      "bytes": 2427,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/HardwareController.mm",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/HardwareController.mm",
+      "source_commit": null,
+      "original_sha256": "62630d9cdb130716e3de9ebe698429eb1a420d36e53079344a2bfb360d9ffd69",
+      "published_sha256": "dc3e8b08a3c9b8eec80f1cb2b516242fa1eeb9235d11890034d6bb3adcdf95f7",
+      "bytes": 21339,
+      "transformations": [
+        "removed-hardcoded-email-export-recipient"
+      ]
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/PointCloudApplication.cpp",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/PointCloudApplication.cpp",
+      "source_commit": null,
+      "original_sha256": "b07abe5e019bae7771f61b61f245716c2871b6269e26ee6ce1542b5f869f16c1",
+      "published_sha256": "3bf211a85a266e435fb9f7948f096d407f5dea5c47e802f1fe8bef8816a8a1cf",
+      "bytes": 10080,
+      "transformations": [
+        "replaced-sdk-application-key-with-placeholder"
+      ]
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/PointCloudApplication.h",
+      "source_commit": null,
+      "original_sha256": "9129c6ab167db3ee304b10af59e5c5b95c49c5a5e23d65e0936b15a0b7b284bb",
+      "published_sha256": "9129c6ab167db3ee304b10af59e5c5b95c49c5a5e23d65e0936b15a0b7b284bb",
+      "bytes": 2604,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/TestApp.cpp",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/TestApp.cpp",
+      "source_commit": null,
+      "original_sha256": "d2180140c6ebb949e67f7e5d6b418828847a98937284616d88063d57ef62fa94",
+      "published_sha256": "d2180140c6ebb949e67f7e5d6b418828847a98937284616d88063d57ef62fa94",
+      "bytes": 8938,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/TestApp.h",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/TestApp.h",
+      "source_commit": null,
+      "original_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "published_sha256": "982e77c255e8dece1fc99ac58be38b1641ebe3fe4ad6c3d56325f5d7c82aa7aa",
+      "bytes": 1120,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/TextureUtilities.cpp",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/TextureUtilities.cpp",
+      "source_commit": null,
+      "original_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "published_sha256": "681e9bec2d43fbb7150b1b37f99f91634a5cd5b6d54ea5f44c4fc4ec67057c90",
+      "bytes": 3023,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/TextureUtilities.h",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/TextureUtilities.h",
+      "source_commit": null,
+      "original_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "published_sha256": "23a64dfbf23e44608c7daf35428fe2375cf52d53c2e35166b451b3ddc2165977",
+      "bytes": 725,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/VideoWriter.h",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/VideoWriter.h",
+      "source_commit": null,
+      "original_sha256": "89191b9a877f585dd7f9fbbd4e3e9c5dc5bd5c32a54404fb6f7e2a63d4d52674",
+      "published_sha256": "89191b9a877f585dd7f9fbbd4e3e9c5dc5bd5c32a54404fb6f7e2a63d4d52674",
+      "bytes": 2291,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/VideoWriter.m",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/VideoWriter.m",
+      "source_commit": null,
+      "original_sha256": "89f61b201ea9f2b905aa3c6eb1f6d5b01ede6f44e3858e5ddf6580f401180c93",
+      "published_sha256": "89f61b201ea9f2b905aa3c6eb1f6d5b01ede6f44e3858e5ddf6580f401180c93",
+      "bytes": 17928,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/PointCloudSample/main.mm",
+      "source": "DiskonKeyBackup/Scanner/PointCloudSample/main.mm",
+      "source_commit": null,
+      "original_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "published_sha256": "e381525c1e093c2269373087278a9a5028649a10e7cce4a95071801c1df2b6e6",
+      "bytes": 306,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/LICENSE",
+      "source": "DiskonKeyBackup/Scanner/LICENSE",
+      "source_commit": null,
+      "original_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "published_sha256": "b6a62afef20f217638506e030161fef5f4372ed43802d5fff4ad90e9124bbf66",
+      "bytes": 1055,
+      "transformations": []
+    },
+    {
+      "path": "history/diskonkey-cpp/Scanner/README",
+      "source": "DiskonKeyBackup/Scanner/README",
+      "source_commit": null,
+      "original_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "published_sha256": "c1a4980e0dce77405b7d678ba955ff48c84016373d2fd2e80cee686630aa84b7",
+      "bytes": 1922,
+      "transformations": []
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "source_commit": null,
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "published_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "transformations": []
+    }
+  ],
+  "excluded": [
+    {
+      "source": "laser_proj_matlab/dcm2quat.m",
+      "reason": "no-explicit-redistribution-permission-recovered-for-third-party-helper"
+    },
+    {
+      "source": "laser_proj_matlab/icp.m",
+      "reason": "no-explicit-redistribution-permission-recovered-for-third-party-helper"
+    },
+    {
+      "source": "laser_proj_matlab/quat2dcm.m",
+      "reason": "no-explicit-redistribution-permission-recovered-for-third-party-helper"
+    },
+    {
+      "source": "laser_proj_matlab/read_ply.m",
+      "reason": "no-explicit-redistribution-permission-recovered-for-third-party-helper"
+    },
+    {
+      "source": "laser_proj_matlab/rgbtohsi.m",
+      "reason": "no-explicit-redistribution-permission-recovered-for-third-party-helper"
+    },
+    {
+      "source": "SampleLaserPics/Decision Tree Classifier/decisionTreePredict.m",
+      "reason": "third-party-course-code-attribution-to-Itamar-Katz-with-no-license-recovered"
+    },
+    {
+      "source": "SampleLaserPics/Decision Tree Classifier/decisionTreeTrain.m",
+      "reason": "third-party-course-code-attribution-to-Itamar-Katz-with-no-license-recovered"
+    },
+    {
+      "source": "SampleLaserPics/Decision Tree Classifier/findOptimalThreshold.m",
+      "reason": "third-party-course-code-attribution-to-Itamar-Katz-with-no-license-recovered"
+    },
+    {
+      "source": "SampleLaserPics/Decision Tree Classifier/impurity.m",
+      "reason": "third-party-course-code-attribution-to-Itamar-Katz-with-no-license-recovered"
+    },
+    {
+      "source": "SampleLaserPics/Decision Tree Classifier/split.m",
+      "reason": "third-party-course-code-attribution-to-Itamar-Katz-with-no-license-recovered"
+    },
+    {
+      "source": "SampleLaserPics/Decision Tree Classifier/weighted_impurity.m",
+      "reason": "third-party-course-code-attribution-to-Itamar-Katz-with-no-license-recovered"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2014-04-09-d381c87/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2013-04-15-3643bbb/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2013-04-12-917a87e/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2014-11-02-0f12c88/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2014-11-02-9f75f0f/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+    "passed": true
+  },
+  {
+    "path": "history/ios/2014-11-02-745a1c7/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+    "passed": true
+  },
+  {
+    "path": "ios/Scanner/PointCloudSample/PointCloudSample-Info.plist",
+    "passed": true
+  },
+  {
+    "path": "ios/Scanner/PointCloudSample.xcodeproj/project.pbxproj",
+    "passed": true
+  }
+]

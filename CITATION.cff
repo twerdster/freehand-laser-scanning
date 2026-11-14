@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the original BMVC 2015 paper when using this historical research source."
+title: "Freehand Laser Scanning Using Mobile Phone: historical research source"
+type: software
+authors:
+  - family-names: Slossberg
+    given-names: Ron
+  - family-names: Wetzler
+    given-names: Aaron
+  - family-names: Kimmel
+    given-names: Ron
+preferred-citation:
+  type: conference-paper
+  title: "Freehand Laser Scanning Using Mobile Phone"
+  authors:
+    - family-names: Slossberg
+      given-names: Ron
+    - family-names: Wetzler
+      given-names: Aaron
+    - family-names: Kimmel
+      given-names: Ron
+  year: 2015
+  collection-title: "Proceedings of the British Machine Vision Conference"
+  start: "88.1"
+  end: "88.10"
+  doi: 10.5244/C.29.88
