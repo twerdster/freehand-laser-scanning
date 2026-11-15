@@ -1,0 +1,5 @@
+-r ../updated/requirements.txt
+open3d==0.18.0
+# Open3D imports Dash; keep its Flask/Werkzeug pair compatible.
+Flask>=3.0,<4
+Werkzeug>=3.0,<4

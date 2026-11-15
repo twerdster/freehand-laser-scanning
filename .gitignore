@@ -19,3 +19,7 @@ Dependencies/
 *.MOV
 *.mp4
 *.avi
+# Known scene geometry is explicitly fetched by the checksum-pinned recipe.
+showcase/assets/dragon-normalized.npz
+showcase/assets/dragon-normalized.obj
+showcase/assets/dragon-normalized.ply

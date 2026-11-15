@@ -1,14 +1,14 @@
 # Freehand Laser Scanning Using Mobile Phone
 
-A smartphone and a cheap line laser become a handheld 3D scanner. The laser is rigidly attached to the phone: find its stripe in the camera image, intersect each pixel ray with the calibrated laser plane, then use the phone’s pose to combine the resulting points in world coordinates.
+A smartphone and a cheap line laser become a handheld 3D scanner. With the laser rigidly attached, find its stripe, intersect camera rays with the calibrated laser plane, then combine points using the phone’s pose.
 
 **Ron Slossberg, Aaron Wetzler and Ron Kimmel · BMVC 2015**
 
 [Paper](https://www.bmva-archive.org.uk/bmvc/2015/papers/paper088/paper088.pdf) · [DOI](https://doi.org/10.5244/C.29.88) · [Original demonstration](https://www.youtube.com/watch?v=_Nr1Jh4NsFs)
 
-![Synthetic camera frames become detected laser ridges and accumulated 3D point clouds](media/freehand-laser-demo.gif)
+![A synthetic laser sweeps the Stanford Dragon; detected stripes accumulate into a dense reconstructed point cloud](showcase/freehand-dragon.gif)
 
-**New synthetic replay:** actual input PNGs, computed subpixel ridges and reconstructed points for a plane, sphere and folded surface. Camera poses are supplied. Gold marks the current view; teal marks earlier views. The display orbit changes only the viewpoint. [Animation details and reproducible script](media/README.md).
+**360 camera views → 36,560 reconstructed points.** This synthetic Stanford Dragon experiment runs generated 320×240 PNGs through stripe extraction, board calibration and triangulation. Poses are supplied. The cloud covers **88.2% of the source surface within 5 mm**, by area-weighted sampling. Gold marks the current stripe; the final orbit changes only the display viewpoint. [Data, scoring limits and reproduction](showcase/README.md).
 
 ## How it works
 
@@ -23,21 +23,23 @@ Python 3.12+; run from the repository root:
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r updated/requirements.txt
-.venv/bin/python -m updated.run_simulation
-.venv/bin/python -m updated.run_checks
+.venv/bin/python -m showcase.checks
 ```
 
-The [runnable guide](updated/README.md) covers outputs, portable Python-only checks and the tested unsigned iOS simulator app. The app computes from source PNGs and poses. The [synthetic metrics](updated/artifacts/metrics.json) give surface RMSE of **2.82 / 2.03 / 2.70 mm** for the three scenes; a bright non-laser ridge produces **744 mm** error. Supplied poses, ideal camera geometry and synthetic images limit these results; they do not measure hardware accuracy.
+This reprocesses 32 included calibration/scan PNGs and verifies their points against the published cloud. The [showcase guide](showcase/README.md) regenerates all 360 observations and the animation. Results retain occlusion gaps and silhouette outliers, with separate surface-distance and camera-ray correspondence scores.
+
+The [adapter guide](updated/README.md) covers the tested unsigned iOS replay app and smaller plane/sphere/fold regression cases, including a deliberately failing bright distractor. The app computes from source PNGs and poses. Supplied poses and ideal synthetic camera geometry limit these experiments; they do not measure hardware accuracy or reproduce live tracking.
 
 The **paper’s separate experiments** report 4.48 and 2.25 mm RMSE for two front-side scans, after ICP alignment to reference models, using an iPhone 5s at roughly one metre and 720p. The original capture app depends on SDK components and resources excluded or missing here; live scanning and the paper’s benchmarks have not been reproduced here.
 
 ## Explore
 
-- [Runnable stages, fixtures, plots and PLY clouds](updated/README.md)
+- [Dragon experiment: observations, all points, PLY and metrics](showcase/README.md)
+- [Runnable stages, iOS replay and regression cases](updated/README.md)
 - [Original MATLAB experiments](matlab/experiments/) and [iOS implementation](ios/Scanner/)
 - [Source history/provenance](docs/PROVENANCE.md), [build limits](docs/DEPENDENCIES.md) and [validation](docs/VALIDATION.md)
 
-Licensing is per component: the new adapter is [MIT](updated/LICENSE); historical code keeps its original terms. See [NOTICE](NOTICE.md).
+Licensing is per component: new software is MIT; the Dragon and derived observations, clouds and media retain [Stanford’s research-use terms](showcase/STANFORD-ASSET-TERMS.md). Historical code keeps its original notices. See [NOTICE](NOTICE.md).
 
 ```bibtex
 @inproceedings{Slossberg2015Freehand,

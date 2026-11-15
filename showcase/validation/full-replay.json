@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "scope": "Check the published point package by reprocessing PNGs, not loading mesh truth.\n\nWith --cache, replays all360 generated views and checks every recorded PNG hash.\nThe default public subset replays24 scans plus all8 calibration frames.\n",
+  "all_passed": true,
+  "checks": {
+    "eight_png_calibration_reproduces_fitted_plane_exactly": true,
+    "all_36560_points_finite_and_uv_inside_filter_border": true,
+    "saved_png_to_uv_xyz_exact_replay_without_mesh_truth": true,
+    "all_accepted_points_retained_in_scoring_and_nohit_accounting": true,
+    "all_points_present_in_full_ply_at_declared_precision": true,
+    "generation_core_configuration_and_calibration_source_bindings": true
+  },
+  "replayed_scan_pngs": 360,
+  "replayed_calibration_pngs": 8,
+  "maximum_uv_absolute_difference_px": 0.0,
+  "maximum_xyz_absolute_difference_m": 0.0,
+  "points": 36560,
+  "versions": {
+    "python": "3.12.7",
+    "numpy": "2.0.2",
+    "scipy": "1.14.1",
+    "pillow": "10.4.0"
+  },
+  "source_sha256": {
+    "updated/laser.py": "cd0c724ffe0158ccdb846b5a8bec5c192e112d576b0fea068cfa49401a34a725",
+    "showcase/checks.py": "61195d79916db7bfbeb2aaf0cc8e72571dd835f0a6114215e9b0398ca62b7f7f",
+    "showcase/generate.py": "4b12e5026c5d0126b60e5971f574baa4eaa2ce8bc469f1f90e754ab4fbad0a1a",
+    "showcase/mesh_scene.py": "c2e1d2474744317cd16043d8d91b4b3220cf741268f352b983d250a334d7d093"
+  },
+  "input_sha256": {
+    "configuration.json": "b81f8e4c2faf0fa34d78819b97be159e4e1358acb0a9bdd22841e3f5b420e4e3",
+    "calibration.json": "52dedb0b0468d2ff309db45e8d3cd067af63a67dff786ebfaa72632eb2ab2daa",
+    "metrics.json": "eafd2d0b715dd8e538de27453a445bf7b310073ec508958bc5999907ab2c80f4",
+    "reconstruction.npz": "b80c7acad5bf9a9d551d14b750610e2c519ca479b9463cf82d40a7e9ccd30338",
+    "reconstruction.ply": "f052d9792e1d30c4899be3e9339c7a076d38e42fc1add517c67c2882f1e2dd79"
+  }
+}

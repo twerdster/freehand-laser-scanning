@@ -4,6 +4,9 @@ ios/** -text
 history/** -text
 LICENSES/** -text
 
+# Preserve the Stanford source README's exact bytes and original final blank line.
+showcase/assets/STANFORD-DRAGON-README.txt -text whitespace=-blank-at-eof
+
 # Only these imported historical files retain original whitespace that Git flags.
 # Documentation and newly written scripts retain normal whitespace checks.
 "history/diskonkey-cpp/Scanner/PointCloudSample/AppDelegate.h" -whitespace

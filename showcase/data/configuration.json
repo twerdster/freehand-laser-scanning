@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "asset": "Stanford Dragon",
+  "mesh_sha256": "b7e0fffaad4305e87490c12e186b3c3df0bb06b2a2e584c426e381a843ffbd49",
+  "width": 320,
+  "height": 240,
+  "intrinsics": [
+    [
+      340.0,
+      0.0,
+      159.5
+    ],
+    [
+      0.0,
+      340.0,
+      119.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "seed": 20261115,
+  "laser_plane_camera_generation_only": [
+    0.0,
+    1.0,
+    0.14,
+    -0.1
+  ],
+  "laser_emitter_camera": [
+    0.0,
+    0.1,
+    0.0
+  ],
+  "laser_sigma_m": 0.0022,
+  "camera_radius_m": 0.72,
+  "heights": 60,
+  "sweep_height_range_m": [
+    -0.02,
+    0.37
+  ],
+  "azimuths_radians": [
+    0.0,
+    1.0471975511965976,
+    2.0943951023931953,
+    3.141592653589793,
+    4.1887902047863905,
+    5.235987755982989
+  ],
+  "pitch_down_radians": [
+    0,
+    0.3490658503988659,
+    0,
+    0.3490658503988659,
+    0,
+    0.3490658503988659
+  ],
+  "units": "metres",
+  "world": "+Y up, floorY0",
+  "camera": "+X right,+Y down,+Z forward",
+  "inverse_policy": "Existing strongest ridge per column; no truth/visibility mask passed to inverse"
+}

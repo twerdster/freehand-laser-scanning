@@ -1,0 +1,35 @@
+{
+  "scope": "Second full media render from the same frozen outputs/font/software environment; no numerical or native tests rerun",
+  "all_passed": true,
+  "files": {
+    "freehand-dragon.gif": {
+      "sha256": "34dd9c464b8f8c7917d49d7d7337e4f4ec37559ef4bdf347d29a8c9944b7fbd8",
+      "reproduction_sha256": "34dd9c464b8f8c7917d49d7d7337e4f4ec37559ef4bdf347d29a8c9944b7fbd8",
+      "byte_identical": true
+    },
+    "freehand-dragon-poster.png": {
+      "sha256": "68e590d334bd75b6a10f83b9fab654d83074103c5069b1323a46c6d03d19aa8f",
+      "reproduction_sha256": "68e590d334bd75b6a10f83b9fab654d83074103c5069b1323a46c6d03d19aa8f",
+      "byte_identical": true
+    },
+    "validation/media.json": {
+      "sha256": "b42a523addd7486dc38ed95f739f6a824ff71d05a1f97086d27d818ebfc6e959",
+      "reproduction_sha256": "b42a523addd7486dc38ed95f739f6a824ff71d05a1f97086d27d818ebfc6e959",
+      "byte_identical": true
+    }
+  },
+  "frames": 144,
+  "duration_ms": 11520,
+  "gif_bytes": 4943342,
+  "maximum_cloud_display_clipped_points": 0,
+  "maximum_source_image_outside_uv": 0,
+  "reviewed_decoded_frames": [
+    8,
+    36,
+    64,
+    95,
+    110,
+    130
+  ],
+  "contact_sheet_scope": "Decoded final GIF, acquisition stages and orbit views visually inspected; complete frame hash/timing checks in media.json"
+}
