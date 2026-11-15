@@ -12,3 +12,5 @@ Original file notices are retained. This archive does not assign a new blanket s
 - **Other research scripts and classification wrappers:** retained as historical research source without adding a new license. Third-party helpers without recovered redistribution permission were omitted and listed in the source manifest.
 
 Publication copies replace the embedded SDK application key with an obvious placeholder and clear developer signing identities, team/profile settings, machine-specific build paths, and a hardcoded email-export recipient. These edits do not grant SDK access or establish buildability. Original unmodified recovery evidence remains outside this public repository.
+
+The new `updated/` adapter, simulator, replay app, tests and generated synthetic data have a separate scoped [MIT license](updated/LICENSE), including the original 13th Lab attribution for the sample-derived filter combination. This grant does not relicense any historical source or imported helper outside `updated/`. The adapter uses newly authored kernels, guards and wrappers; its exact differences from the archived implementation are described in [updated/README.md](updated/README.md).

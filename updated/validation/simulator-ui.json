@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "date": "2026-11-15",
+  "device": "iPhone 16 simulator",
+  "runtime": "iOS 18.1",
+  "scope": "Independent native computer-use inspection of the unsigned adapted app; no physical hardware or live laser",
+  "checks": {
+    "installation_and_launch": "passed",
+    "calibration_status": "895 board points, 16 computed scan frames",
+    "frame_picker": "passed; sphere-02 changes source image and count to 107 points",
+    "accumulation": "passed; switch changes one view to five views",
+    "distractor": "passed; 150 accepted points, orange corrupted cloud and explicit failure warning",
+    "cloud_framing": "passed; bounds-based fit and +0.35 rad pitch show useful curved sphere-02 views",
+    "rotate_right_button": "passed on final build; visibly changes sphere-02 cloud orientation",
+    "reset_view_button": "passed on final build; restores exact default orientation",
+    "drag_rotation": "implemented, but no visible rotation was demonstrated by automation; use verified buttons",
+    "occlusion": "passed; fold-03 shows 130 points, visible occlusion gap and corresponding warning"
+  },
+  "numerical_evidence": "simulator-parity.json",
+  "source_build_evidence": "builds.json",
+  "private_evidence": "Screenshots and full runtime logs retained outside the public repository",
+  "display_defaults": {
+    "yaw_radians": -0.35,
+    "pitch_radians": 0.35,
+    "note": "Display transforms only; no alteration of exported 3D coordinates"
+  },
+  "fresh_relaunch": {
+    "status": "passed",
+    "procedure": "Terminate task app, preserve a private copy of its generated validation output, remove only that generated output, relaunch, and require a newly created file",
+    "observed_output_recreation_seconds": 0.782,
+    "fresh_output_sha256": "bc46a48e924fcfdb63b47eb124987f700b057aad39be65dd9bdd72b6ac82b9e5",
+    "byte_identical_to_previous_run": true,
+    "native_comparison_repeated": "passed; 16 frames/2094 points, maximum world-coordinate difference 8.4e-9 m"
+  }
+}

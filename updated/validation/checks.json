@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "scope": "Synthetic software checks; no real scanner or paper benchmark",
+  "environment": {
+    "python": "3.12.7",
+    "numpy": "2.0.2",
+    "scipy": "1.14.1",
+    "pillow": "10.4.0",
+    "platform": "darwin",
+    "architecture": "arm64"
+  },
+  "tests_run": 17,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "sanitizer": {
+    "fixture_frames": 22,
+    "calibration_points": 895,
+    "scan_points": 2094,
+    "invalid_input_assertions": 16,
+    "ray_rejection_assertions": 3,
+    "status": "passed",
+    "instrumentation": "clang AddressSanitizer + UndefinedBehaviorSanitizer",
+    "diagnostics": "none"
+  },
+  "native_frame_parity": {
+    "frames": 22,
+    "maximum_response_absolute_difference": 1.9174346277850418e-05,
+    "maximum_ridge_coordinate_difference_px": 1.7300756383065163e-07,
+    "point_comparison_test_tolerance_m": 1e-06,
+    "status": "passed"
+  },
+  "native_build_commands": [
+    "clang -O2 -dynamiclib -framework Accelerate updated/native/laser_core.c -o <scratch>/liblaser.dylib",
+    "clang -g -O1 -fsanitize=address,undefined -fno-omit-frame-pointer -framework Accelerate updated/tests/native_sanitizer.c updated/native/laser_core.c -o <scratch>/native-sanitizer"
+  ],
+  "fresh_vs_stored_scene_rmse_max_delta_mm": 0.0,
+  "fresh_vs_stored_all_numeric_metrics_max_delta": 0,
+  "tested_source_sha256": {
+    "__init__.py": "8114c68999851fec9afb8b2d67de9eddc70288b9dc46a2906e2289b318589ce0",
+    "compare_native.py": "1eaf1ad1349ad760968aff0afaf43b28b61d8ae5cee84d3eef5f47bdcf821077",
+    "ios/Bridging.h": "5ef283b1f8f67bdaba74feece193bfb92550d4f74a1706bdf609615e2a95bd06",
+    "ios/FreehandReplay.xcodeproj/project.pbxproj": "8eea1c7e59d8b554776cfa46416f40fec3d48ed0a945c1632086fd65ef710c58",
+    "ios/ReplayApp.swift": "f4a5404d4f43819598ac096b7ee672c0833cf7e4f372039b4f99e02183e96c58",
+    "laser.py": "cd0c724ffe0158ccdb846b5a8bec5c192e112d576b0fea068cfa49401a34a725",
+    "native/laser_core.c": "7509d5b606878aa72cd1ca072ea92a81921aaf39a5717e681448f5e91f01770c",
+    "native/laser_core.h": "18f569d04d8ebc2ab6321b8feb032d0923d8e5da1e11ccc49919c3861ad14b8e",
+    "native_bridge.py": "f1b23d02bdf1a65cc7ed6f6c316d675f611a915c494905d75685eed5ce8b7d07",
+    "run_checks.py": "51d394fa87b4fd7d4e8a8de631f97e013ba3148acfeac7c2fd47ab0428455577",
+    "run_simulation.py": "b9151d392b3db7cf196adddbd07972322a7cf364e68f3a6910519baba16ed1e6",
+    "synthetic.py": "c7bc1fb95ae85d0b48c5768fc9612ecbb5e236ab384e3a89935f3bb99a52ea31",
+    "tests/native_sanitizer.c": "2f79ea9e6605fa795bacd1bf65a352cbc67cccbd0924671d424e7bd45b5a2d50",
+    "tests/test_reconstruction.py": "8242a936f977fed57f891f558e2142655eace3a0a4b8ea4442241a4ac5dbeb94",
+    "truth.py": "b4eacb1092dae903099e850d413eb83bffc424d9865923bf036347c0a3dcea5d"
+  },
+  "tested_fixture_sha256": {
+    "fixtures/calibration-00.png": "f52e557f7a07cf012ea1efe4d3fa203a766633ccb8821140c31f4e258ef021ae",
+    "fixtures/calibration-01.png": "105a7d7c645fbfa036bfae653037ccaa8e6f7120a8373c912321661e3ea57ae2",
+    "fixtures/calibration-02.png": "5d25ea75ae43020133a617add3de8327c9bf6a5d7adb3b6aea3ec28c1fa366c4",
+    "fixtures/calibration-03.png": "bc5b71936b282c2cf90ed0a59ee3684904936dbf0afff9f6fc029269135d3058",
+    "fixtures/calibration-04.png": "65d16f8b7052fb3c1b1486fe9bf399e383ae3d931658a5e3de436d6144433a61",
+    "fixtures/calibration-05.png": "99ef098a2c32b41863c037231a14533a0e852c9b6e70da9c1bffbd54ef19d279",
+    "fixtures/fold-00.png": "09673e564fc0fb985d2b2985430e203f42092dbaedd65e3350c19f11116d8f3b",
+    "fixtures/fold-01.png": "ad8a9c77ea4d9a4a8f73d3c7054e816ff34dc3780a39304b9cd221aa1f73f814",
+    "fixtures/fold-02.png": "332e3c7ce4d70a5485957e1c07373c76e625595731a0da65ef84bd47b3edfac1",
+    "fixtures/fold-03.png": "7310d0bc6c2f121598c0dd40de079179f2c50adea3dde1ee6bbd82951d91b34a",
+    "fixtures/fold-04.png": "c7eaa1849a7aaa268dc8a575dc59f1f752563d9be12457997ee20d3e744240ee",
+    "fixtures/plane-00.png": "cbb8b479ab9a05f42cf314f79a752228320ae8dc26b73d1513c85b4a18fc1a72",
+    "fixtures/plane-01.png": "babfc8518309d76756ae2e557de62ae161513365f65036a39512ead92a42c49b",
+    "fixtures/plane-02.png": "6f05e2eda8dcebac290eec65b33e89376495a2ff56456b2266d10d01da38f822",
+    "fixtures/plane-03.png": "0c9df260279819b85b7dfa01d4f1895c570bdc1d601e4ce351f2be669bc3363e",
+    "fixtures/plane-04.png": "63e99b37264eee25439af0d3f63a3f0e0bfb45c4c23b45d62a273a4436c6bc17",
+    "fixtures/plane-distractor.png": "abb0addb2a15fac59dbdee4949f39c27f2545be7f962cb0b7056283df8116566",
+    "fixtures/sequence.json": "0595fdca618fde11b438988fd5420732b57632f649976fa5a4ed9667bed6a876",
+    "fixtures/sphere-00.png": "bdc7dd92584273e7cfd3e68b6ed62acbb024d10de2c710420f1147697de73f13",
+    "fixtures/sphere-01.png": "b8e52451c98c326d3c9de36407c07eca5f2d5fac487d441a0571872376302ea1",
+    "fixtures/sphere-02.png": "2347e3785771127fab1bc887d2aa8ac09ed1dc0dc16f7f2fb6cbb391a4ff5dbb",
+    "fixtures/sphere-03.png": "60b264e113f5c213d28490c3f41f3b5b63a6e43bfc8921caf9b8380ed96d7897",
+    "fixtures/sphere-04.png": "3433161174bd39fec1df59639223225c26d4ceb92b7827a92153d2fd24ded00b"
+  }
+}

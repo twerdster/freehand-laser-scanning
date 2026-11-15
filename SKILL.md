@@ -1,19 +1,31 @@
 # Freehand Laser Scanning maintenance
 
-Read SUMMARY.md, README.md, NOTICE.md, and docs/PROVENANCE.md before making project changes. This repository archives laser scanning research source, not Freehand Voxel Carving.
+Read SUMMARY.md first, then this file, README.md, NOTICE.md and docs/PROVENANCE.md. For the runnable adapter also read updated/README.md and its metrics/validation. This project is Freehand Laser Scanning, not Freehand Voxel Carving.
 
-## Source policy
+## Source and license policy
 
-Preserve historical source and author notices. Keep meaningful versions in history/ separate from the current archived iOS source. Imported file provenance belongs in docs/SOURCE_MANIFEST.json with logical relative origins, original/published SHA-256, and exact edit categories. Never add private backup paths, account identifiers, email/message metadata, raw mail/archives, signing material, application keys, or user IDE state.
+Preserve all historical bytes, line endings, author notices and source/config snapshots. Keep recovery manifest original/published hashes and exact edit categories; never replace sanitized files with raw recovery copies. No private backup paths, mail metadata, raw archives/history, SDK application keys, signing material or user IDE state in public files. The proprietary SDK header/library, vendor binaries/frameworks/resource packs remain excluded.
 
-The PointCloud sample under Scanner/ has its own MIT license; retain it in each snapshot. The separate proprietary SDK header/library and vendor dependencies are not covered by that sample grant and remain excluded. Preserve Kitware's Apache 2.0 notices and the full license, Kroon's BSD notice, Kovesi's inline notices, and Mian's research-use terms. Do not add a blanket license or import omitted third-party helpers without a matching grant.
+Scanner/LICENSE and README grant scoped MIT rights to the sample; retain the notice in all snapshots. Kitware keeps Apache 2.0, Kroon BSD, Kovesi inline notices and Mian research-use terms. New updated/ software/generated assets have a separate MIT grant retaining 13th Lab derived-source attribution. No blanket historical license or silently imported omitted helpers.
 
-## Verification
+## Runnable adapter workflow
 
-Preserve imported source bytes, including historical whitespace and line endings. `.gitattributes` disables line-ending conversion for imported trees and lists exact archived files exempt from whitespace diagnostics. Do not broaden those exceptions to documentation, new scripts, or new source. Keep normal whitespace checks for newly authored files.
+`updated/laser.py` is the Python inverse path; `updated/native/laser_core.c` is the Accelerate path also compiled into the SwiftUI/SceneKit simulator app. `updated/synthetic.py` independently ray-casts analytic scene geometry; `updated/truth.py` independently solves the continuous visible laser/surface curve. Never generate fixture truth using the reconstruction being tested. `updated/run_simulation.py` regenerates 22 bounded PNGs and metadata, then metrics, per-frame points, PLY and plots. Regeneration overwrites updated/fixtures and updated/artifacts; pass --fixtures/--output to use scratch instead.
 
-Run `python3 scripts/verify_sources.py` after source changes. It reads source/config/manifest files without executing research code. Parse all `.m` files with MISS_HIT 0.9.44 when changing MATLAB source; use a task-scoped environment. Parse `.plist`/`.pbxproj` files with Apple `plutil -lint` when changing iOS project configuration. Record exact scope/results in docs/VALIDATION.md.
+Use a native-filesystem Python 3.12+ venv and updated/requirements.txt. From repo root:
 
-Archival scripts expect historical external data and may write outputs or clear MATLAB workspace state. Do not run them as a routine smoke test. A successful parser/hash check is not a claim of MATLAB execution, iOS buildability, hardware validation, or benchmark reproduction.
+- `python -m updated.run_simulation`
+- `python -m updated.run_checks` on macOS (C build/parity and ASan/UBSan included)
+- `python -m updated.run_checks --python-only --output <scratch>/checks.json` for portable Python scope.
 
-Before every commit, review SUMMARY.md and this file and explicitly update both or record why no update is needed. Keep publication status and validation statements accurate. Use `twerdster/freehand-laser-scanning` and its `main` branch as the canonical repository. Verify a permitted account before publishing, preserve normal history, and read back the public commit and source tree after pushing. Link the repository from the Freehand Laser publication and Code & Data entry only after that readback.
+After changing algorithm/generator/app inputs, regenerate outputs, run meaningful checks and keep metrics, tested hashes, README tables and this handoff accurate. Do not claim native parity or sanitizer success after Python-only checks. Native build scratch remains outside Git; package versions and source/fixture hashes are recorded in updated/validation/checks.json. Validate ctypes array dimensions/capacities and count bounds before passing pointers; the C API cannot infer NumPy allocation sizes. Native filter/cubic arithmetic is float with explicit tolerances; Python uses float64, and boundary decisions need not be identical for arbitrary images.
+
+Keep the camera-to-world row-major/metre/zero-based pixel convention explicit. The camera-attached laser plane is fitted from multi-pose board PNG observations. Poses are supplied; no tracker exists here. The app must compute extraction/calibration/reconstruction from source PNGs and metadata, never load a precomputed PLY. It exports native-validation.json from its own Documents directory for independent comparison. Truth remains scoring-only. Preserve the visible distractor/occlusion/pose/metric-scale sensitivity cases; surface-only error cannot prove point correspondence.
+
+Build the app with the unsigned command in updated/README.md. No account sign-in, automatic signing/registration or physical-device deployment. Simulator runtime proof is in updated/validation/simulator-parity.json and simulator-ui.json; frame/accumulation/occlusion/distractor/button-rotation/reset checks passed, and fresh relaunch regenerated byte-identical numerical output. Drag is implemented but unverified by automation; use the verified rotation buttons. Coordinate task-owned simulator UDIDs before boot/install/launch; do not touch unrelated devices. CURRENT_PROJECT_VERSION and MARKETING_VERSION must remain valid for simulator installation. Keep DerivedData, full build/runtime logs, simulator identities and machine paths outside public Git. Bounded public fixtures/artifacts are small; verify AgentSSD mount/UUID/space/write access before large generated data, and keep repos/venvs/builds on a native filesystem.
+
+## Historical verification
+
+Run `python3 scripts/verify_sources.py` after changes; it verifies 181 imported instances without executing historical programs. Parse changed original .m files with MISS_HIT 0.9.44 if any are intentionally edited (normally preserve them). Parse changed plist/pbxproj with plutil -lint. The historical source build failure and excluded dependencies stay separate from the new app’s build/runtime results. Do not execute archival scripts as smoke tests: they expect missing data and may clear workspace/write outputs.
+
+Before every commit, review and update SUMMARY.md and this file if behavior, workflow, outputs or status changed; otherwise explicitly record why no update is needed. Use canonical twerdster/freehand-laser-scanning main; verify a permitted account before publishing and read back the public commit/tree after pushing.

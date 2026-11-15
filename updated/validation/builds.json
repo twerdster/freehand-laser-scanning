@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "date": "2026-11-15",
+  "toolchain": {
+    "xcode": "16.1",
+    "xcode_build": "16B40",
+    "simulator_sdk": "18.1",
+    "clang": "Apple clang 16.0.0 (clang-1600.0.26.4)"
+  },
+  "historical": {
+    "project": "ios/Scanner/PointCloudSample.xcodeproj",
+    "scheme": "PointCloudSample",
+    "sdk": "iphoneos",
+    "destination": "generic/platform=iOS",
+    "signing_allowed": false,
+    "exit_code": 65,
+    "result": "BUILD FAILED",
+    "observed_blockers": [
+      "Missing model/image/localization/PLY resource inputs"
+    ],
+    "further_dependencies": "Proprietary SDK/vendor dependencies remain excluded; source/link completion not reached",
+    "evidence": "docs/BUILD_ATTEMPT_2026-11-15.md",
+    "observed_warnings": [
+      "Project VALID_ARCHS armv7/armv7s does not include requested arm64; deployment target 6.0 outside SDK support"
+    ]
+  },
+  "adapter": {
+    "project": "updated/ios/FreehandReplay.xcodeproj",
+    "scheme": "FreehandReplay",
+    "sdk": "iphonesimulator",
+    "destination": "generic/platform=iOS Simulator",
+    "signing_allowed": false,
+    "exit_code": 0,
+    "result": "BUILD SUCCEEDED",
+    "bundle_id": "org.freehandlaser.Replay",
+    "bundle_version": "1",
+    "marketing_version": "1.0",
+    "architectures": [
+      "arm64",
+      "x86_64"
+    ],
+    "source_and_metadata_sha256": {
+      "updated/ios/ReplayApp.swift": "f4a5404d4f43819598ac096b7ee672c0833cf7e4f372039b4f99e02183e96c58",
+      "updated/ios/Bridging.h": "5ef283b1f8f67bdaba74feece193bfb92550d4f74a1706bdf609615e2a95bd06",
+      "updated/ios/FreehandReplay.xcodeproj/project.pbxproj": "8eea1c7e59d8b554776cfa46416f40fec3d48ed0a945c1632086fd65ef710c58",
+      "updated/native/laser_core.c": "7509d5b606878aa72cd1ca072ea92a81921aaf39a5717e681448f5e91f01770c",
+      "updated/native/laser_core.h": "18f569d04d8ebc2ab6321b8feb032d0923d8e5da1e11ccc49919c3861ad14b8e",
+      "updated/fixtures/sequence.json": "0595fdca618fde11b438988fd5420732b57632f649976fa5a4ed9667bed6a876"
+    },
+    "compiled_product_sha256": {
+      "FreehandReplay": "d67baa80746d85989126eb3ae4d34b50d8d68cd35839ee65caaddf9580dd9d41",
+      "FreehandReplay.debug.dylib": "297b952fc44e61d2ea36c2e3aec47ae91967cc1a6eb3b86cb0d6e5d7e73f3451"
+    },
+    "note": "Unsigned adapted app. Runtime/simulator output is separately checked; no original app/device/SDK validation implied.",
+    "packaged_fixture_verification": {
+      "files": 23,
+      "all_sha256_match_source": true
+    }
+  }
+}

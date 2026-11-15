@@ -1,6 +1,6 @@
 # Historical dependencies and build limits
 
-This archive has not been modernized into a standalone app. Read the scripts before running them: several use `clear all`, open plots, read fixed filenames, and write experimental outputs in the working directory.
+The historical application has not been restored into a standalone app. The separate [updated adapter](../updated/README.md) runs adapted reconstruction stages on explicit synthetic PNG/pose inputs; it does not supply these historical dependencies. Read the scripts before running them: several use `clear all`, open plots, read fixed filenames, and write experimental outputs in the working directory.
 
 ## MATLAB experiments
 

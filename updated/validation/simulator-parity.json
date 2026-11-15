@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "frames": 16,
+  "pixels": 2094,
+  "points": 2094,
+  "maximum_ridge_coordinate_difference_px": 1.7300756383065163e-07,
+  "maximum_world_coordinate_difference_m": 8.39770741833945e-09,
+  "maximum_plane_coefficient_difference": 1.9850038279756177e-10,
+  "tolerances": {
+    "ridge_px": 2e-05,
+    "world_coordinate_m": 1e-06,
+    "plane_coefficient": 1e-07
+  },
+  "native_output_sha256": "bc46a48e924fcfdb63b47eb124987f700b057aad39be65dd9bdd72b6ac82b9e5",
+  "desktop_output_sha256": "e4888b123b2993fbded9ab9f889f3eee570c80fa6084eb20397a93aee7c82ca8",
+  "scope": "Same synthetic PNGs/poses through independently executed native app and desktop adapters; not real sensor validation"
+}
